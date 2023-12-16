@@ -4,3 +4,6 @@
 [submodule "HTML-Bird-Songs"]
 	path = HTML-Bird-Songs
 	url = https://github.com/iDanchou/HTML-Bird-Songs.git
+[submodule "HTML-Subtitles-Captions"]
+	path = HTML-Subtitles-Captions
+	url = https://github.com/iDanchou/HTML-Subtitles-Captions.git
