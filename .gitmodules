@@ -1,3 +1,6 @@
 [submodule "HTML-Restaurant-Menu"]
 	path = HTML-Restaurant-Menu
 	url = https://github.com/iDanchou/HTML-Restaurant-Menu.git
+[submodule "HTML-Bird-Songs"]
+	path = HTML-Bird-Songs
+	url = https://github.com/iDanchou/HTML-Bird-Songs.git
