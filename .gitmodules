@@ -7,3 +7,6 @@
 [submodule "HTML-Subtitles-Captions"]
 	path = HTML-Subtitles-Captions
 	url = https://github.com/iDanchou/HTML-Subtitles-Captions.git
+[submodule "HTML-Sign-up-Form"]
+	path = HTML-Sign-up-Form
+	url = https://github.com/iDanchou/HTML-Sign-up-Form.git
