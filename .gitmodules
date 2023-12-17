@@ -10,3 +10,6 @@
 [submodule "HTML-Sign-up-Form"]
 	path = HTML-Sign-up-Form
 	url = https://github.com/iDanchou/HTML-Sign-up-Form.git
+[submodule "HTML-Improved-Form"]
+	path = HTML-Improved-Form
+	url = https://github.com/iDanchou/HTML-Improved-Form.git
