@@ -1,3 +1,82 @@
-a{
-    text-decoration: none;
+  body {
+    background-color: thistle;
+    font-family: 'Roboto', sans-serif; 
   }
+
+  nav {
+    background-color: rgb(255, 228, 196);
+  }
+
+  aside {
+    background-color: #E0FFFF;
+  }
+
+  nav, aside {
+    color: dimgray;
+  }
+
+  a {
+    text-decoration: none;
+    color: maroon;
+  }
+
+ a:visited {
+    color: blue;
+ }
+
+ a:hover {
+    color: red;
+ }
+
+ section {
+    border: 2px solid green;
+ }
+
+ h1 {
+    text-shadow: #E0FFFF 5px 5px 5px;
+    font-size: 2.3em;
+    text-align: center;
+ }
+
+h2 {
+    box-shadow: #E0FFFF 5px 5px 5px;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+span {
+    font-weight: bold;
+}
+
+main {
+    background-color: chocolate;
+    width: 90%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+nav h3 {
+    color: red;
+}
+
+aside h3 {
+    color: blue;
+}
+
+.intro {
+    text-shadow: green 5px 5px 5px;
+}
+
+.cool {
+    text-shadow: blue 5px 5px 5px;  
+}
+
+.summary {
+    text-shadow: red 5px 5px 5px;   
+}
