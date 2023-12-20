@@ -13,3 +13,6 @@
 [submodule "HTML-Improved-Form"]
 	path = HTML-Improved-Form
 	url = https://github.com/iDanchou/HTML-Improved-Form.git
+[submodule "css-demo"]
+	path = css-demo
+	url = C:/Program Files/Git/css-demo
