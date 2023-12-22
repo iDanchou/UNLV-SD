@@ -16,3 +16,6 @@
 [submodule "css-demo"]
 	path = css-demo
 	url = C:/Program Files/Git/css-demo
+[submodule "UncleStickiesNotepadEmporium-13"]
+	path = UncleStickiesNotepadEmporium-13
+	url = https://github.com/iDanchou/UncleStickiesNotepadEmporium-13.git
