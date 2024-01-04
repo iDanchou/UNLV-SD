@@ -19,3 +19,6 @@
 [submodule "UncleStickiesNotepadEmporium-13"]
 	path = UncleStickiesNotepadEmporium-13
 	url = https://github.com/iDanchou/UncleStickiesNotepadEmporium-13.git
+[submodule "CSS-The-Hacker-Times-Part-1"]
+	path = CSS-The-Hacker-Times-Part-1
+	url = https://github.com/iDanchou/CSS-The-Hacker-Times-Part-1.git
