@@ -25,3 +25,9 @@
 [submodule "CSS-Transform-Transition-and-Animations-Oh-My"]
 	path = CSS-Transform-Transition-and-Animations-Oh-My
 	url = https://github.com/iDanchou/CSS-Transform-Transition-and-Animations-Oh-My.git
+[submodule "CSS-Responsive-Boxes"]
+	path = CSS-Responsive-Boxes
+	url = https://github.com/iDanchou/CSS-Responsive-Boxes.git
+[submodule "CSS-Recreate-Oscar-Website-Design"]
+	path = CSS-Recreate-Oscar-Website-Design
+	url = https://github.com/iDanchou/CSS-Recreate-Oscar-Website-Design.git

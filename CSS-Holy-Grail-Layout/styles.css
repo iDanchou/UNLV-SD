@@ -1,0 +1,58 @@
+:root {
+    --pale-sage: #BFF4CB;
+    --sage: #84A98C;
+    --dusty-emerald: #52796f;
+    --deep-emerald: #354F52;
+    --night-forest: #2F3E46;
+}  
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: var(--night-forest);
+    color: var(--pale-sage);
+  }                  
+
+  * {
+    border: 1px solid teal;
+}                  
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 2em;
+    color: white;
+}                  
+
+main {
+    background: darkcyan;
+    min-height: 65vh;
+}
+
+header, footer {
+    background: rgb(3, 110, 3);
+    flex-grow: 1;
+}
+
+nav, aside {
+    background: rgb(6, 206, 6);
+    flex-grow: 2;
+}
+
+@media (min-width: 600px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    header, footer {
+        width: 100%;
+    }
+
+    main {
+        width: 65%;
+    }
+}
