@@ -22,3 +22,6 @@
 [submodule "CSS-The-Hacker-Times-Part-1"]
 	path = CSS-The-Hacker-Times-Part-1
 	url = https://github.com/iDanchou/CSS-The-Hacker-Times-Part-1.git
+[submodule "CSS-Transform-Transition-and-Animations-Oh-My"]
+	path = CSS-Transform-Transition-and-Animations-Oh-My
+	url = https://github.com/iDanchou/CSS-Transform-Transition-and-Animations-Oh-My.git
