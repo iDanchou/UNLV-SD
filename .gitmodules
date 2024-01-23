@@ -31,3 +31,6 @@
 [submodule "CSS-Recreate-Oscar-Website-Design"]
 	path = CSS-Recreate-Oscar-Website-Design
 	url = https://github.com/iDanchou/CSS-Recreate-Oscar-Website-Design.git
+[submodule "JS-Web-Game-Part-1"]
+	path = JS-Web-Game-Part-1
+	url = https://github.com/iDanchou/JS-Web-Game-Part-1
