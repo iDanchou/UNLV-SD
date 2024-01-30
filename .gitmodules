@@ -34,3 +34,6 @@
 [submodule "JS-Web-Game-Part-1"]
 	path = JS-Web-Game-Part-1
 	url = https://github.com/iDanchou/JS-Web-Game-Part-1
+[submodule "JS-Callback-Practice"]
+	path = JS-Callback-Practice
+	url = https://github.com/iDanchou/JS-Callback-Practice.git
