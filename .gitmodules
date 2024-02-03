@@ -37,3 +37,6 @@
 [submodule "JS-Callback-Practice"]
 	path = JS-Callback-Practice
 	url = https://github.com/iDanchou/JS-Callback-Practice.git
+[submodule "5.5.5-activity-array-automotive"]
+	path = 5.5.5-activity-array-automotive
+	url = https://github.com/iDanchou/5.5.5-activity-array-automotive.git
