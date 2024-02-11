@@ -55,3 +55,9 @@
 [submodule "JS-Building-Targeted-Ads"]
 	path = JS-Building-Targeted-Ads
 	url = https://github.com/iDanchou/JS-Building-Targeted-Ads.git
+[submodule "JS-Encapsulation-Practice"]
+	path = JS-Encapsulation-Practice
+	url = https://github.com/HackerUSA-CE/JS-Encapsulation-Practice.git
+[submodule "UNLV-SD"]
+	path = UNLV-SD
+	url = https://github.com/iDanchou/UNLV-SD.git
