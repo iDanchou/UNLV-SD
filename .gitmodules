@@ -52,3 +52,6 @@
 [submodule "JS-Building-an-Interactive-Map"]
 	path = JS-Building-an-Interactive-Map
 	url = https://github.com/iDanchou/JS-Building-an-Interactive-Map.git
+[submodule "JS-Building-Targeted-Ads"]
+	path = JS-Building-Targeted-Ads
+	url = https://github.com/iDanchou/JS-Building-Targeted-Ads.git
