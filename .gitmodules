@@ -49,3 +49,6 @@
 [submodule "JS-Web-Game-Part-7"]
 	path = JS-Web-Game-Part-7
 	url = https://github.com/iDanchou/JS-Web-Game-Part-7.git
+[submodule "JS-Building-an-Interactive-Map"]
+	path = JS-Building-an-Interactive-Map
+	url = https://github.com/iDanchou/JS-Building-an-Interactive-Map.git
