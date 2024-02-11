@@ -43,3 +43,9 @@
 [submodule "JS-Alliance-Brand"]
 	path = JS-Alliance-Brand
 	url = https://github.com/iDanchou/JS-Alliance-Brand.git
+[submodule "JS-Jacks-Paint"]
+	path = JS-Jacks-Paint
+	url = https://github.com/iDanchou/JS-Jacks-Paint.git
+[submodule "JS-Web-Game-Part-7"]
+	path = JS-Web-Game-Part-7
+	url = https://github.com/iDanchou/JS-Web-Game-Part-7.git
