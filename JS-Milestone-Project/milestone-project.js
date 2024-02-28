@@ -1,38 +1,37 @@
 const buttonOptions = document.getElementById("buttons");
-const questionContainer = document.getElementById("question-container");
+const questionContainer = document.getElementsById("question-container");
+const startButton = document.getElementById("start");
+const buttonA = document.getElementById('buttonA');
+const buttonB = document.getElementById('buttonB');
+const buttonC = document.getElementById('buttonC');
+const buttonD = document.getElementById('buttonD');
 
 let gryf = 0
 let huff = 0
 let raven = 0
 let slyth = 0
 
-let houses = []
+let house = []
 
-var buttonA = document.getElementById('buttonA');
-var buttonB = document.getElementById('buttonB');
-var buttonC = document.getElementById('buttonC');
-var buttonD = document.getElementById('buttonD');
+
 
 
 buttonA.addEventListener('click', function() {
-  // You can add your logic here for button A
   raven += 1
 });
 
 buttonB.addEventListener('click', function() {
-  // You can add your logic here for button B
   gryf += 1
 });
 
 buttonC.addEventListener('click', function() {
-  // alert('You clicked button C');
   slyth += 1
 });
 
 buttonD.addEventListener('click', function() {
-  // alert('You clicked button D');
   huff += 1
 });
+
 
 var questionOne = document.createElement('p');
 let content = document.querySelector(".question-container")
@@ -44,9 +43,7 @@ C: Power
 D: Friendship
 `
 
-content.appendChild(questionOne);
 
-// questionOne.classList.add("hide")
 
 var questionTwo = document.createElement('p');
 questionTwo.innerHTML = `What kind of instrument most pleases your ear?
@@ -87,3 +84,23 @@ B: Draw your wand and try to discover the source of the noise.
 C: Draw your wand and stand your ground.
 D: Proceed with caution, keeping one hand on your concealed wand and an eye out for any disturbance.
 `
+
+questionContainer.classList.add("hide")
+buttonOptions.classList.add("hide")
+startButton.classList.add("hide")
+
+// content.appendChild(questionOne);
+// content.appendChild(questionTwo);
+// content.appendChild(questionThree);
+// content.appendChild(questionFour);
+// content.appendChild(questionFive);
+// content.appendChild(questionSix);
+
+
+
+// questionOne.classList.add("hide")
+// questionTwo.classList.add("hide")
+// questionThree.classList.add("hide")
+// questionFour.classList.add("hide")
+// questionFive.classList.add("hide")
+// questionSix.classList.add("hide")
