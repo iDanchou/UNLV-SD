@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: aliceblue;
 }
 
 .container {
@@ -51,9 +51,9 @@ body {
 }
 
 #options-container button.active {
-    background-color: #8c52ff;
+    background-color: gray;
     color: #fff;
-    border: 3px solid #8c52ff;
+    border: 3px solid aliceblue;
 }
 
 .letter-container {
@@ -96,7 +96,7 @@ body {
 canvas {
     display: block;
     margin: auto;
-    border: 10px solid #8c52ff;
+    border: 10px solid black;
     border-radius: 10px;
 }
 
@@ -121,7 +121,7 @@ canvas {
 #new-game-button {
     font-size: 1.2em;
     padding: 0.5em 1em;
-    background-color: #8c52ff;
+    background-color: gray;
     border: 3px solid #000;
     color: #fff;
     border-radius: 0.2em;

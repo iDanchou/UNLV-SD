@@ -9,23 +9,8 @@ const resultText = document.getElementById("result-text");
 
 //Options values for buttons
 let options = {
-  fruits: [
-    "Apple",
-    "Blueberry",
-    "Mandarin",
-    "Pineapple",
-    "Pomegranate",
-    "Watermelon",
-  ],
-  animals: ["Hedgehog", "Rhinoceros", "Squirrel", "Panther", "Walrus", "Zebra"],
-  countries: [
-    "India",
-    "Hungary",
-    "Kyrgyzstan",
-    "Switzerland",
-    "Zimbabwe",
-    "Dominica",
-  ],
+  states: ["California", "Texas", "Florida", "New York", "Washington", "Oregon", "Arizona", "Nevada", "Utah", "Colorado", "Montana", "Idaho", "Wyoming", "New Mexico", "North Dakota", "South Dakota", "Nebraska", "Kansas", "Oklahoma", "Minnesota", "Iowa", "Missouri", "Arkansas", "Louisiana", "Wisconsin", "Illinois", "Michigan", "Indiana", "Ohio", "Kentucky", "Tennessee", "Mississippi", "Alabama", "Georgia", "South Carolina", "North Carolina", "Virginia", "West Virginia", "Pennsylvania", "Maryland", "Delaware", "New Jersey", "Connecticut", "Rhode Island", "Massachusetts", "Vermont", "New Hampshire", "Maine", "Alaska", "Hawaii"],
+  colors: ["Red", "Blue", "Green", "Yellow", "Orange", "Purple", "Black", "White", "Brown", "Pink", "Gray", "Cyan", "Magenta", "Lime", "Teal", "Indigo", "Maroon", "Navy", "Olive", "Silver", "Turquoise", "Violet", "Peach", "Mint", "Lavender", "Coral", "Beige", "Magenta", "Crimson", "Gold", "Plum", "Khaki", "Azure", "Coral", "Cyan", "Fuchsia", "Lavender", "Magenta", "Olive", "Peach", "Plum", "Salmon", "Silver", "Tan", "Teal", "Turquoise", "Violet", "Yellow", "Crimson", "Gold", "Khaki", "Lavender", "Magenta", "Olive", "Peach", "Plum", "Salmon", "Silver", "Tan", "Teal", "Turquoise", "Violet", "Yellow", "Crimson", "Gold", "Khaki", "Lavender", "Magenta", "Olive", "Peach", "Plum", "Salmon", "Silver", "Tan", "Teal", "Turquoise", "Violet", "Yellow", "Crimson", "Gold", "Khaki", "Lavender", "Magenta", "Olive", "Peach", "Plum", "Salmon", "Silver", "Tan", "Teal", "Turquoise", "Violet", "Yellow", "Crimson", "Gold", "Khaki", "Lavender", "Magenta", "Olive", "Peach", "Plum", "Salmon", "Silver", "Tan", "Teal", "Turquoise", "Violet", "Yellow", "Crimson", "Gold", "Khaki", "Lavender", "Magenta", "Olive", "Peach", "Plum", "Salmon", "Silver", "Tan", "Teal", "Turquoise", "Violet", "Yellow", "Crimson", "Gold", "Khaki", "Lavender", "Magenta", "Olive", "Peach", "Plum",]
 };
 
 //count

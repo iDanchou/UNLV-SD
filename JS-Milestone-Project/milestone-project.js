@@ -1,6 +1,5 @@
 const buttonOptions = document.getElementById("buttons");
-const questionContainer = document.getElementsById("question-container");
-const startButton = document.getElementById("start");
+const questionContainer = document.getElementById("question-container");
 const buttonA = document.getElementById('buttonA');
 const buttonB = document.getElementById('buttonB');
 const buttonC = document.getElementById('buttonC');
@@ -16,25 +15,25 @@ let house = []
 
 
 
-buttonA.addEventListener('click', function() {
+clickA = buttonA.addEventListener('click', function() {
   raven += 1
 });
 
-buttonB.addEventListener('click', function() {
+clickB = buttonB.addEventListener('click', function() {
   gryf += 1
 });
 
-buttonC.addEventListener('click', function() {
+clickC = buttonC.addEventListener('click', function() {
   slyth += 1
 });
 
-buttonD.addEventListener('click', function() {
+clickD = buttonD.addEventListener('click', function() {
   huff += 1
 });
 
 
 var questionOne = document.createElement('p');
-let content = document.querySelector(".question-container")
+let content = document.querySelector(".question")
 
 questionOne.innerHTML = `What do you consider to be the most important quality?
 A: Wisdom 
@@ -85,9 +84,27 @@ C: Draw your wand and stand your ground.
 D: Proceed with caution, keeping one hand on your concealed wand and an eye out for any disturbance.
 `
 
-questionContainer.classList.add("hide")
-buttonOptions.classList.add("hide")
-startButton.classList.add("hide")
+content.appendChild(questionOne);
+
+for (let i = 0; i < 6; i++) {
+  
+  if (clickA === true) {
+    questionOne.classList.add("hide")
+    content.appendChild(questionTwo);
+  }
+  else if (clickB === true) {
+    questionOne.classList.add("hide")
+    content.appendChild(questionTwo);
+  }
+  else if (clickC === true) {
+    questionOne.classList.add("hide")
+    content.appendChild(questionTwo);
+  }
+  else if (clickD === true) {
+    questionOne.classList.add("hide")
+    content.appendChild(questionTwo);
+  }
+}
 
 // content.appendChild(questionOne);
 // content.appendChild(questionTwo);
