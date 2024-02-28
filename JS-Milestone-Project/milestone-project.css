@@ -24,40 +24,9 @@ body {
     
 }
 
-#game-choice {
-    text-align: center;
-}
 
-#game-choice div {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 1.2rem 0 2.4em 0;
-}
 
-#game-choice button {
-    padding: 0.6em 1.2em;
-    border: 3px solid #000;
-    background-color: #fff;
-    color: #000;
-    border-radius: 0.3em;
-    text-transform: capitalize;
-    cursor: pointer;
-}
-
-#options-container buton:disabled {
-    border: 3px solid #808080;
-    color: #808080;
-    background-color: #efefef;
-}
-
-#options-container button.active {
-    background-color: orange;
-    color: #fff;
-    border: 3px solid orange;
-}
-
-.letter-container {
+#buttonsHolder {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -65,26 +34,12 @@ body {
     gap: 0.6em;
 }
 
-#letter-container button {
+#buttonsHolder button {
     height: 2.4em;
     width: 2.4em;
     border-radius: 0.3em;
     background-color: #fff;
     cursor: pointer;
-}
-
-.new-game-popup {
-    background-color: #fff;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 0.6em;
 }
 
 #user-input {
@@ -94,9 +49,7 @@ body {
     margin: 0.6em 0 1.2em 0;
 }
 
-.hide {
-    display: none;
-}
+
 
 #result-text h2 {
     font-size: 1.8em;
@@ -112,20 +65,3 @@ body {
     font-weight: 600;
 }
 
-#play-again {
-    font-size: 1.4em;
-    padding: 0.5em 1em;
-    background-color: #808080;
-    border: 3px solid #000;
-    color: #fff;
-    border-radius: 0.2em;
-    cursor: pointer;
-}
-
-.win-msg {
-    color: #39d78d;
-}
-
-.lose-msg {
-    color: red;
-}
