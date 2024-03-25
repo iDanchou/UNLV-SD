@@ -67,3 +67,6 @@
 [submodule "JS-Building-an-Admin-Portal"]
 	path = JS-Building-an-Admin-Portal
 	url = https://github.com/iDanchou/JS-Building-an-Admin-Portal.git
+[submodule "API-JASKIS"]
+	path = API-JASKIS
+	url = https://github.com/iDanchou/API-JASKIS.git
