@@ -70,3 +70,6 @@
 [submodule "API-JASKIS"]
 	path = API-JASKIS
 	url = https://github.com/iDanchou/API-JASKIS.git
+[submodule "RR-Create-a-Craigslist-Clone"]
+	path = RR-Create-a-Craigslist-Clone
+	url = https://github.com/iDanchou/RR-Create-a-Craigslist-Clone.git
